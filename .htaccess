@@ -1,0 +1,11 @@
+
+
+<FilesMatch  "\.(xd)$">
+Order Deny,Allow
+Deny from all
+</FilesMatch>
+
+Options -Indexes
+php_flag error_reporting 0
+php_flag display_errors Off
+php_flag allow_url_fopen Off
